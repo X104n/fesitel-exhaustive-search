@@ -74,7 +74,7 @@ def main():
             else:
                 KEY_BLOCK.append(1)
 
-        E = encrypt(INPUT_BLOCK,KEY_BLOCK)
+        E = decrypt(INPUT_BLOCK,KEY_BLOCK)
         Estr = ""
         for i in range(len(E)):
             if E[i] == 0:
